@@ -1,5 +1,5 @@
 #String methods
-
+"""
 a="Hello,World"
 b="Hiii"
 print(a)
@@ -16,3 +16,10 @@ name="Praveen"
 age=22
 
 print("My name is", (name) , "and my age is", (age))
+"""
+#Dict
+
+student = {"name" : "Praveen", "Dept" : "IT"}
+
+print(student)
+print(student["name"])
