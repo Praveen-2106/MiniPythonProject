@@ -1,4 +1,5 @@
-#String methods
+
+# String methods
 """
 a="Hello,World"
 b="Hiii"
@@ -17,9 +18,36 @@ age=22
 
 print("My name is", (name) , "and my age is", (age))
 """
-#Dict
+# Dict
 
-student = {"name" : "Praveen", "Dept" : "IT"}
+"""student = {
+             "name" : "Praveen", "Dept" : "IT"
+            }
+alter = student.update(name="Parvin")
+print(student)"""
 
-print(student)
-print(student["name"])
+# List
+"""
+    fruits = ["Apple", "Banana", "Carrot", "Demo", "Elephant", 1, 2, 3.4, True]
+    animal = ["Air", 1, 4, 6, "Balloon"]
+    
+    joint = fruits + animal
+    
+    print(animal[3:5])
+
+"""
+
+# Statements
+# import camelcase
+# # c = camelcase.CamelCase()
+# age = "under world"
+# print(camelcase.CamelCase().hump(age))
+# def demo(a, b, c):
+#     print(c, b, a )
+# demo(2, 3, 5)
+
+
+def demo(**kwargs):
+    # print(kwargs)
+    return kwargs
+print(demo(name="Praveen", age=18, dept="IT"))
