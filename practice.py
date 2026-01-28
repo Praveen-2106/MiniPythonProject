@@ -47,7 +47,13 @@ print(student)"""
 # demo(2, 3, 5)
 
 
-def demo(**kwargs):
-    # print(kwargs)
-    return kwargs
-print(demo(name="Praveen", age=18, dept="IT"))
+# def demo(**kwargs):
+#     # print(kwargs)
+#     return kwargs
+# print(demo(name="Praveen", age=18, dept="IT"))
+
+def demo(s):
+    return " ".join(word.capitalize() for word in s.split(" "))
+s=input()
+result = demo(s)
+
